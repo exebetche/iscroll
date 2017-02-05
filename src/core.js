@@ -436,9 +436,9 @@ IScroll.prototype = {
 		}
 		this.wrapperOffset = utils.offset(this.wrapper);
 
-		this._execEvent('refresh');
-
 		this.resetPosition();
+
+		this._execEvent('refresh');
 
 // INSERT POINT: _refresh
 
